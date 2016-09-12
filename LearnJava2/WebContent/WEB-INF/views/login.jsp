@@ -7,6 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-${demo}
+<form action="/LearnJava2/login" method="post">
+Username : <input type="text" name="username"/>
+Password : <input type="text" name="password"/>
+<input type="submit">
+</form>
 </body>
 </html>

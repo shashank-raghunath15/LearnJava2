@@ -10,6 +10,7 @@ public class DemoController {
 	@RequestMapping("/demo")
 	public ModelAndView demo() {
 		ModelAndView modelAndView = new ModelAndView("demo");
+		modelAndView.addObject("demo", "All set");
 		return modelAndView;
 	}
 }
